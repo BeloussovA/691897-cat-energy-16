@@ -1,0 +1,23 @@
+.diets__item {
+  background-color: grey;
+  width: 280px;
+  margin-top: 33px;
+
+}
+
+.diets__title {
+  font-family: $fontBase;
+  font-size: $fontBaseSizeTitleMid;
+  text-transform: uppercase;
+  color: #111111;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 39px;
+}
+
+.diets__img {
+  background-color: #68b738;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
