@@ -26,10 +26,12 @@ a {
   text-align: center;
   text-decoration: none;
   width: 280px;
-  height: 40px;
   background-color: #68b738;
-  padding-left: 73px;
-  padding-right: 74px;
+  display: block;
+  border: none;
+  padding: 0;
+  margin: auto;
   padding-top: 14px;
   padding-bottom: 11px;
+  line-height: 1.29;
 }
