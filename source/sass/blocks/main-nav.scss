@@ -1,4 +1,18 @@
-.main-nav {
+.main-nav__list {
   display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
 
+.main-nav__item {
+  font-family: $fontBold;
+  font-size: $fontBaseSizeBold;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-top: 24px;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 24px;
 }
