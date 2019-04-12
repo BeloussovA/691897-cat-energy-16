@@ -1,18 +1,14 @@
 .page-header {
-  width: 280px;
+  width: 320px;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
   margin: auto;
 }
 
 .page-header__wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 280px;
+  justify-content: space-around;
   padding-top: 11px;
-  border-bottom: 1px solid #cccccc;
   padding-bottom: 11px;
 }
-
-// .page-header__logo {
-//   padding-left: 20px;
-//   padding-top: 11px;
