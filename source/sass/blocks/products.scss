@@ -13,7 +13,6 @@
 }
 
 .products-card__title--other-items {
-  position: relative;
   text-align: center;
   margin: auto;
   width: 320px;
@@ -65,7 +64,8 @@
   text-align: right;
 }
 
-.products-card__field, .products-card__value {
+.products-card__field,
+.products-card__value {
   font-family: $fontSecondary;
   font-size: 12px;
   font-weight: normal;
