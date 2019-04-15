@@ -1,0 +1,14 @@
+.page-header {
+  width: 320px;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  margin: auto;
+}
+
+.page-header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}

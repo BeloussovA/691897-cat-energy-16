@@ -1,0 +1,36 @@
+.page-footer {
+  background-color: #f2f2f2;
+}
+
+.page-footer__logo {
+  width: 280px;
+  text-align: center;
+  margin: auto;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 31px;
+  padding-top: 39px;
+  line-height: 1;
+}
+
+.page-footer__copyright {
+  width: 280px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  margin: auto;
+  font-family: $fontSecondary;
+  font-weight: normal;
+  font-size: $fontBaseSize;
+  color: #444444;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-footer__wrapper {
+  margin: 0;
+}
+
+.page-footer__wrapper-logo {
+  width: 40px;
+  height: 40px;
+}

@@ -1,0 +1,37 @@
+body {
+  font-family: $fontBase;
+  font-size: $fontBaseSize;
+  margin: 0 auto;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.button {
+  font-family: $fontBase;
+  font-size: $fontBaseSizeMobile;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  width: 280px;
+  background-color: #68b738;
+  display: block;
+  border: none;
+  padding: 0;
+  margin: auto;
+  padding-top: 14px;
+  padding-bottom: 11px;
+  line-height: 1;
+  margin-bottom: 25px;
+}
