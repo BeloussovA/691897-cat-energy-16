@@ -1,0 +1,16 @@
+.additional-goods {
+  width: 320px;
+  margin: auto;
+}
+
+.additional-goods__title {
+  width: 280px;
+  margin: auto;
+  font-family: $fontBase;
+  font-size: $fontBaseSizeTitleMid;
+  font-weight: normal;
+  line-height: 1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #cccccc;
+}

@@ -1,0 +1,34 @@
+.bonus-share {
+  width: 280px;
+  margin: auto;
+  margin-top: 39px;
+}
+
+.bonus {
+  width: 280px;
+  height: 289px;
+  background: url("/img/gift-photo-mobile@1x.jpg") no-repeat top center;
+  margin-bottom: 35px;
+}
+
+.bonus__slogan {
+  font-family: $fontSecondary;
+  font-size: $fontBaseSize;
+  margin: auto;
+  color: #ffffff;
+  text-align: center;
+  width: 160px;
+  padding-top: 190px;
+  position: relative;
+}
+
+.bonus__slogan::after {
+  content: "";
+  position: absolute;
+  width: 56px;
+  height: 61px;
+  background: url("/img/icon-gift.svg");
+  left: 50px;
+  top: 65px;
+}
+

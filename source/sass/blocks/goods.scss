@@ -1,0 +1,43 @@
+.goods {
+  width: 280px;
+  margin: auto;
+  border-bottom: 1px solid #cccccc;
+}
+
+.goods__item {
+  font-family: $fontBase;
+  font-size: $fontBaseSize;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.goods__title {
+  font-family: $fontBase;
+  font-size: $fontBaseSize;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+.goods-stats {
+  width: 280px;
+  padding-bottom: 14px;
+}
+
+.goods-stats__field {
+  font-family: $fontSecondary;
+  font-size: $fontBaseSizeMobile;
+  font-weight: normal;
+  color: #444444;
+  text-align: left;
+}
+
+.goods-stats__value {
+  font-family: $fontSecondary;
+  font-size: $fontBaseSizeMobile;
+  font-weight: normal;
+  color: #444444;
+  text-align: right;
+}
+
