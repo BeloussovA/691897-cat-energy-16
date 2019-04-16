@@ -1,0 +1,94 @@
+.example {
+  width: 320px;
+  margin: auto;
+  background-color: #f2f2f2;
+}
+
+.example__title {
+  font-family: $fontBase;
+  font-size: $fontBaseSizeTitle;
+  font-weight: normal;
+  line-height: 1;
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 33px;
+}
+
+.example__description {
+  width: 266px;
+  margin: auto;
+  font-family: $fontSecondary;
+  font-size: $fontBaseSizeMobile;
+  line-height: 1.29;
+  padding-top: 33px;
+  padding-bottom: 29px;
+}
+
+.example__expenses {
+  margin-top: 22px;
+  font-family: $fontBase;
+  font-size: $fontBaseSizeMobile;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 44px;
+}
+
+.example__cat {
+  width: 320px;
+  height: 235px;
+  margin: auto;
+  background: url(/img/before-mobile@1x.png) no-repeat;
+  padding-bottom: 88px;
+}
+
+.example__toggle {
+  font-family: $fontBase;
+  font-size: $fontBaseSize;
+  text-transform: uppercase;
+  padding-bottom: 38px;
+}
+
+.example__toggle--left {
+  padding-left: 64px;
+}
+
+.example__toggle--right {
+  padding-left: 110px;
+}
+
+
+.results {
+  display: flex;
+  justify-content: space-around;
+  width: 280px;
+  margin: auto;
+}
+
+.results__wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.results__value {
+  font-family: $fontBase;
+  font-size: $fontBaseSizeTitleMid;
+  text-transform: uppercase;
+}
+
+.results__description {
+  font-family: $fontSecondary;
+  font-size: $fontBaseSizeMobileMini;
+  color: #444444;
+  margin: auto;
+  text-align: center;
+  width: 60px;
+}
+
+.results__wrapper-add {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
