@@ -1,0 +1,17 @@
+.conditions__title {
+  font-family: $fontBase;
+  font-size: $fontBaseSizeTitle;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.conditions__info {
+  margin: 0;
+  line-height: 1.29;
+  margin-bottom: 35px;
+  font-family: $fontBase;
+  font-size: $fontBaseSizeMobile;
+  font-weight: normal;
+  text-transform: uppercase;
+  width: 230px;
+}

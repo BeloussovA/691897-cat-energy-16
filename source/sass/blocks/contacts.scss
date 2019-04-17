@@ -1,0 +1,45 @@
+.contacts__title {
+  font-family: $fontBase;
+  font-size: $fontBaseSizeTitleMid;
+  font-weight: normal;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+.contacts__details {
+  line-height: 1;
+  font-family: $fontBase;
+  font-size: $fontBaseSize;
+  font-weight: normal;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts__e-mail {
+  line-height: 1;
+  font-family: $fontBase;
+  font-size: $fontBaseSize;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  border: 1px solid #cdcdcd;
+  margin-bottom: 14px;
+}
+
+.contacts__phone {
+  line-height: 1;
+  font-family: $fontBase;
+  font-size: $fontBaseSize;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 180px;
+  border: 1px solid #cdcdcd;
+}

@@ -1,0 +1,19 @@
+.comment__title {
+  font-family: $fontBase;
+  font-size: $fontBaseSizeTitleMid;
+  font-weight: normal;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 278px;
+  font-family: $fontBase;
+  font-size: $fontBaseSize;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #444444;
+  padding: 0;
+  text-align: center;
+  padding-top: 15px;
+}

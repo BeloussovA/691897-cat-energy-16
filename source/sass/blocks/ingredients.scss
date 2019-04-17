@@ -1,0 +1,29 @@
+.ingredients__title {
+  font-family: $fontBase;
+  font-size: $fontBaseSizeTitleMid;
+  font-weight: normal;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+.ingredients__item {
+  line-height: 1;
+  font-family: $fontBase;
+  font-size: $fontBaseSize;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-bottom: 28px;
+}
+
+.ingredients__item:nth-last-child(1) {
+  padding-bottom: 39px;
+}
+
+.footnote {
+  font-family: $fontSecondary;
+  font-size: $fontBaseSizeMobile;
+  line-height: 1;
+  color: #444444;
+  align-items: center;
+  margin-left: 60px;
+}
