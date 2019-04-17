@@ -1,0 +1,74 @@
+.introduction__name {
+  line-height: 1.29;
+  font-family: $fontBase;
+  font-size: $fontBaseSize;
+  font-weight: normal;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.first-name {
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  width: 210px;
+  line-height: 1;
+  font-family: $fontBase;
+  font-size: $fontBaseSize;
+  font-weight: normal;
+  border: 1px solid #cdcdcd;
+}
+
+.introduction__weight {
+  line-height: 1.29;
+  font-family: $fontBase;
+  font-size: $fontBaseSize;
+  font-weight: normal;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.weight {
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  width: 185px;
+  line-height: 1;
+  font-family: $fontBase;
+  font-size: $fontBaseSize;
+  font-weight: normal;
+  border: 1px solid #cdcdcd;
+}
+
+.introduction__age {
+  line-height: 1.29;
+  font-family: $fontBase;
+  font-size: $fontBaseSize;
+  font-weight: normal;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.age {
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  width: 155px;
+  line-height: 1;
+  font-family: $fontBase;
+  font-size: $fontBaseSize;
+  font-weight: normal;
+  border: 1px solid #cdcdcd;
+}

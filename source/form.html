@@ -36,7 +36,7 @@
       <section class="selection-program">
         <div class="conditions">
           <h1 class="conditions__title">Подбор программы</h1>
-          <p class="conditions-info">Заполните анкету и мы подберем программу питания для вашего кота</p>
+          <p class="conditions__info">Заполните анкету и мы подберем программу питания для вашего кота</p>
         </div>
         <form class="feedback" action="https://echo.htmlacademy.ru" method="post">
           <section class="introduction">
@@ -72,15 +72,13 @@
           </section>
           <section class="contacts">
             <h2 class="contacts__title">Контактные данные (владельца кота)</h2>
-            <div class="contacts__form">
+            <div class="contacts__details">
               <label for="e-mail">E-mail:*</label>
-              <div class="contacts__input-field">
-                <input class="contacts__e-mail" id="e-mail" required type="email" name="e-mail" placeholder="Введите e-mail" value="kuklachev@gmail.com">
-              </div>
+              <input class="contacts__e-mail" id="e-mail" required type="email" name="e-mail" placeholder="Введите e-mail" value="kuklachev@gmail.com">
+            </div>
+            <div class="contacts__details">
               <label for="phone">Телефон:*</label>
-              <div class="contacts__input-field">
-                <input class="contacts__phone" id="phone" required type="tel" name="phone" pattern="[0-9]{3}-[0-9]{5}" placeholder="Введите телефон" title="xxx-xxxxx" value="8 (960) 900-60-90">
-              </div>
+              <input class="contacts__phone" id="phone" required type="tel" name="phone" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Введите телефон" title="x-xxx-xxx-xx-xx" value="8 (960) 900-60-90">
             </div>
           </section>
           <section class="comment">
@@ -119,13 +117,17 @@
       </section>
       <section class="address">
         <h2 class="visually-hidden">Адрес компании</h2>
-        <b class="address__invite">приглашаем к сотрудничеству дилеров!</b>
-        <p class="address__description">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        <div class="address__wrapper">
+          <b class="address__invite">приглашаем к сотрудничеству дилеров!</b>
+        </div>
+        <div class="address__wrapper--add">
+          <p class="address__description">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        </div>
       </section>
       <section class="map">
-        <h2 class="visually-hidden">Схема проезда</h2>
-
-
+        <div class="map__wrapper">
+          <img class="map__image" src="/img/bg-map-mobile@1x.png" width="320" height="400" alt="Карта местности">
+        </div>
       </section>
     </main>
     <footer class="page-footer">

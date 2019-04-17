@@ -248,19 +248,21 @@
         <h3 class="additional-goods__title">Дополнительные товары</h3>
         <div class="goods">
           <a class="goods__item" href="#">
-            <h2 class="">Сахарозаменитель</h2>
+            <h2 class="goods__title">Сахарозаменитель</h2>
           </a>
-          <table class="goods-stats">
-            <tr>
-              <th class="goods-stats__field">1 упаковка (100 г)</th>
-              <td class="goods-stats__value">200 Р.</td>
-            </tr>
-          </table>
+          <div class="goods__table">
+            <table class="goods-stats">
+              <tr class="goods-stats">
+                <th class="goods-stats__field">1 упаковка (100 г)</th>
+                <td class="goods-stats__value">200 Р.</td>
+              </tr>
+            </table>
+          </div>
           <a class="button" href="#">Заказать</a>
         </div>
         <div class="goods">
           <a class="goods__item" href="#">
-            <h2 class="">Питьевая вода</h2>
+            <h2 class="goods__title">Питьевая вода</h2>
           </a>
           <table class="goods-stats">
             <tr>
@@ -272,7 +274,7 @@
         </div>
         <div class="goods">
           <a class="goods__item" href="#">
-            <h2 class="">Молоко</h2>
+            <h2 class="goods__title">Молоко</h2>
           </a>
           <table class="goods-stats">
             <tr>
@@ -284,7 +286,7 @@
         </div>
         <div class="goods">
           <a class="goods__item" href="#">
-            <h2 class="">Витамины</h2>
+            <h2 class="goods__title">Витамины</h2>
           </a>
           <table class="goods-stats">
             <tr>
@@ -298,21 +300,22 @@
       <section class="bonus-share">
         <h2 class="visually-hidden">Акция магазина</h2>
         <div class="bonus">
-          <a class="bonus__link" href="#"></a>
-            <img src="http://placehold.it/56x61" alt="Изображение товара">
-          </a>
           <p class="bonus__slogan">Закажите все и получите чехол для кота в подарок!</p>
         </div>
       </section>
-      <section class="address">
+      <section class="address address__alternative">
         <h2 class="visually-hidden">Адрес компании</h2>
-        <b class="address__invite">приглашаем к сотрудничеству дилеров!</b>
-        <p class="address__description">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        <div class="address__wrapper">
+          <b class="address__invite">приглашаем к сотрудничеству дилеров!</b>
+        </div>
+        <div class="address__wrapper--add">
+          <p class="address__description">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        </div>
       </section>
       <section class="map">
-        <h2 class="visually-hidden">Схема проезда</h2>
-
-
+        <div class="map__wrapper">
+          <img class="map__image" src="/img/bg-map-mobile@1x.png" width="320" height="400" alt="Карта местности">
+        </div>
       </section>
     </main>
     <footer class="page-footer">

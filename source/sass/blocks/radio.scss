@@ -1,0 +1,17 @@
+.radio {
+  border: 1px solid #cdcdcd;
+}
+
+.radio__item {
+  line-height: 1;
+  font-family: $fontBase;
+  font-size: $fontBaseSize;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-top: 25px;
+  padding-left: 20px;
+}
+
+.radio__item:nth-last-child(1) {
+  padding-bottom: 25px;
+}

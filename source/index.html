@@ -16,7 +16,6 @@
         </a>
       </div>
       <nav class="main-nav">
-        <!-- <button class="main-nav__toggle" type="button">Открыть меню</button> -->
         <div class="main-nav__wrapper">
           <ul class="main-nav__list">
             <li class="main-nav__item">
@@ -74,27 +73,41 @@
         <h2 class="example__title">Живой пример</h2>
         <p class="example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
         <dl class="results">
-          <dt class="results__value">5 кг</dt>
-            <dd class="results__description">снижение веса</dd>
-          <dt class="results__value">60 дней</dt>
-            <dd class="results__description">затрачено времени</dd>
+          <div class="results__wrapper">
+            <dt class="results__value">5 кг</dt>
+              <dd class="results__description">снижение веса</dd>
+          </div>
+          <div class="results__wrapper-add">
+            <dt class="results__value">60 дней</dt>
+              <dd class="results__description">затрачено времени</dd>
+          </div>
         </dl>
-        <span class="expenses">Затраты на питание: 15 000 руб.</span>
+        <div class="example__expenses">
+          <span class="example__expenses">Затраты на питание: 15 000 руб.</span>
+        </div>
         <div class="example__slider">
-
-
-
+          <div class="example__cat">
+            <span class="visually-hidden">Картинка кота</span>
+          </div>
+          <div class="example__toggle">
+            <span class="example__toggle--left">Было</span>
+            <span class="example__toggle--right">Стало</span>
+          </div>
         </div>
       </section>
       <section class="address">
         <h2 class="visually-hidden">Адрес компании</h2>
-        <b class="address__invite">приглашаем к сотрудничеству дилеров!</b>
-        <p class="address__description">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        <div class="address__wrapper">
+          <b class="address__invite">приглашаем к сотрудничеству дилеров!</b>
+        </div>
+        <div class="address__wrapper--add">
+          <p class="address__description">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        </div>
       </section>
       <section class="map">
-        <h2 class="visually-hidden">Схема проезда</h2>
-
-
+        <div class="map__wrapper">
+          <img class="map__image" src="/img/bg-map-mobile@1x.png" width="320" height="400" alt="Карта местности">
+        </div>
       </section>
     </main>
     <footer class="page-footer">
