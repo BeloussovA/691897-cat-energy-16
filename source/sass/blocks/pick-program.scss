@@ -30,3 +30,9 @@
   padding-bottom: 302px;
   color: #ffffff;
 }
+
+@media (min-width: $tabletWidth) {
+  .pick-program {
+    background: url("../img/index-can-tablet@1x.jpg") no-repeat center;
+  }
+}

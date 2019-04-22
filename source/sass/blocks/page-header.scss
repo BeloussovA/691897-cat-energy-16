@@ -12,3 +12,19 @@
   padding-top: 11px;
   padding-bottom: 11px;
 }
+
+@media (min-width: $tabletWidth) {
+ .page-header {
+   display: flex;
+   width: 768px;
+   border: none;
+  }
+ .page-header__wrapper {
+   padding-left: 29px;
+   padding-top: 24px;
+   margin-right: 96px;
+  }
+ .page-header__burger {
+  display: none;
+ }
+}

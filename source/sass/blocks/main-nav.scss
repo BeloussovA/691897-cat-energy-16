@@ -17,3 +17,18 @@
   padding-bottom: 24px;
   line-height: 1;
 }
+
+@media (min-width: $tabletWidth) {
+  .main-nav__list {
+    flex-direction: row;
+  }
+  .main-nav__item {
+    font-family: $fontBold;
+    font-size: $fontBaseTablet;
+    font-weight: normal;
+    color: #222222;
+    line-height: 1;
+    padding-top: 47px;
+    border: none;
+  }
+}
