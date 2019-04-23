@@ -92,3 +92,64 @@
   margin-left: 12px;
   top: 26px;
 }
+
+@media (min-width: $tabletWidth) {
+  .diets__item {
+    width: 708px;
+    height: 372px;
+    text-align: left;
+  }
+  .diets__title {
+    font-family: $fontBase;
+    font-size: $fontOtherTitleTablet;
+    font-weight: normal;
+    line-height: 1;
+    padding-top: 81px;
+    padding-left: 55px;
+    text-align: left;
+  }
+  .diets__description {
+    width: 375px;
+    font-family: $fontSecondary;
+    font-size: $fontBaseSize;
+    line-height: 1.3;
+    margin: 0;
+    padding-left: 55px;
+    border: none;
+    padding-bottom: 0;
+  }
+  .diets__link {
+    font-family: $fontBase;
+    font-size: $fontSloganTablet;
+    padding-left: 55px;
+    padding-top: 61px;
+    position: relative;
+  }
+  .diets__link::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    background: url("../img/icon-right-arrow-long.svg") no-repeat;
+    margin-left: 25px;
+    top: 66px;
+  }
+  .diets__item::before {
+    width: 200px;
+    height: 200px;
+    margin-left: 450px;
+    margin-top: 90px;
+  }
+  .diets__title::after {
+    width: 141px;
+    height: 194px;
+    top: 75px;
+    left: 478px;
+  }
+  .diets__title--muscle::after {
+    width: 268px;
+    height: 113px;
+    top: 140px;
+    left: 415px;
+  }
+}

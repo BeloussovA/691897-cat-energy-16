@@ -23,12 +23,16 @@
     flex-direction: row;
   }
   .main-nav__item {
-    font-family: $fontBold;
+    font-family: $fontBase;
     font-size: $fontBaseTablet;
     font-weight: normal;
     color: #222222;
     line-height: 1;
     padding-top: 47px;
     border: none;
+  }
+  .main-nav__item:nth-child(2) {
+    margin-left: 36px;
+    margin-right: 38px;
   }
 }
