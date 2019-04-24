@@ -16,3 +16,9 @@
   padding-right: 18px;
   margin: 0;
 }
+@media (min-width: $tabletWidth) {
+  .social {
+    border: none;
+    margin: 0;
+  }
+}

@@ -14,4 +14,29 @@
   text-align: center;
   border-bottom: 1px solid #cccccc;
   padding-bottom: 35px;
+  margin-left: 33px;
+}
+@media (min-width: $tabletWidth) {
+  .page-catalog {
+    border: none;
+    width: 768px;
+  }
+  .page-catalog__title {
+    font-family: $fontBase;
+    font-size: $fontTitleTablet;
+    margin-top: 65px;
+    text-align: left;
+    border: none;
+    margin-bottom: 156px;
+    padding: 0;
+  }
+  .button {
+    width: 249px;
+    font-family: $fontBase;
+    font-size: $fontBaseSize;
+    font-weight: normal;
+    line-height: 1.25;
+    padding-top: 13px;
+    padding-bottom: 12px;
+  }
 }
