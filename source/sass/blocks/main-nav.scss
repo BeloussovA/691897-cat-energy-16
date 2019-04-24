@@ -36,3 +36,14 @@
     margin-right: 38px;
   }
 }
+@media (min-width: $desktopWidth) {
+  .main-nav__wrapper {
+    margin-right: 110px;
+  }
+  .main-nav__item {
+    padding-top: 77px;
+  }
+  .main-nav__item a {
+    color: #ffffff;
+  }
+}

@@ -20,11 +20,22 @@
    border: none;
   }
  .page-header__wrapper {
-   padding-left: 29px;
-   padding-top: 24px;
-   margin-right: 96px;
+    padding-left: 0;
+    padding-top: 53px;
+    margin-right: 96px;
+    padding-bottom: 0;
   }
  .page-header__burger {
   display: none;
  }
+}
+@media (min-width: $desktopWidth) {
+  .page-header {
+    width: 1440px;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .page-header__wrapper {
+    margin-left: 110px;
+  }
 }

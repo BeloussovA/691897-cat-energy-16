@@ -173,3 +173,14 @@
     left: 27px;
   }
 }
+@media (min-width: $desktopWidth) {
+  .advantages {
+    width: 1440px;
+    margin: auto;
+  }
+  .advantages__title {
+    margin-top: 79px;
+    margin-bottom: 63px;
+    margin-left: 113px;
+  }
+}

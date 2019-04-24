@@ -153,3 +153,50 @@
     left: 415px;
   }
 }
+@media (min-width: $desktopWidth) {
+  .diets {
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .diets__item {
+    width: 570px;
+    margin: 0;
+  }
+  .diets__item:nth-child(2) {
+  margin: 0;
+  margin-right: 80px;
+  margin-left: 110px;
+  }
+  .diets__title {
+    text-align: center;
+  }
+  .diets__description {
+    width: 465px;
+    padding-top: 75px;
+  }
+  .diets__link {
+    padding-top: 36px;
+  }
+  .diets__link::after {
+    top: 42px;
+  }
+  .diets__item::before {
+    width: 100px;
+    height: 100px;
+    margin-left: 55px;
+    margin-top: 50px;
+  }
+  .diets__title::after {
+    width: 71px;
+    height: 97px;
+    top: 43px;
+    left: 66px;
+  }
+  .diets__title--muscle::after {
+    width: 134px;
+    height: 97px;
+    left: 38px;
+    top: 50px;
+  }
+}
