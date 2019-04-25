@@ -8,3 +8,10 @@
   width: 280px;
   margin: auto;
 }
+
+@media (min-width: $tabletWidth) {
+  .page-form {
+    width: 768px;
+    border: none;
+  }
+}

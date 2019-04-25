@@ -38,7 +38,7 @@
   width: 320px;
   height: 235px;
   margin: auto;
-  background: url("/img/before-mobile@1x.png") no-repeat;
+  background: url("../img/before-mobile@1x.png") no-repeat;
   padding-bottom: 88px;
 }
 
@@ -91,4 +91,41 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+@media (min-width: $tabletWidth) {
+  .example {
+    width: 768px;
+    background-color: #ffffff;
+    border-top: 1px solid #f2f2f2;
+  }
+
+  .example__title {
+    font-family: $fontBase;
+    font-size: $fontTitleTablet;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 708px;
+  }
+
+  .example__description {
+    width: 680px;
+    font-family: $fontSecondary;
+    font-size: $fontBaseSize;
+    color: #444444;
+    line-height: 1.5;
+    padding-top: 60px;
+    padding-bottom: 55px;
+    margin-left: 31px;
+  }
+}
+
+@media (min-width: $desktopWidth) {
+  .example {
+    width: 1440px;
+    margin: auto;
+    border: none;
+  }
 }
