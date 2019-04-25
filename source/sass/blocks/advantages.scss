@@ -75,6 +75,7 @@
   .advantages {
     width: 708px;
   }
+
   .advantages__title {
     font-family: $fontBase;
     font-size: $fontTitleTablet;
@@ -84,11 +85,13 @@
     margin-top: 51px;
     margin-bottom: 63px;
   }
+
   .advantages__items {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
   }
+
   .advantages__item {
     display: flex;
     flex-wrap: wrap;
@@ -98,6 +101,7 @@
     padding-right: 145px;
     position: relative;
   }
+
   .advantages__item::before {
     content: "1";
     display: block;
@@ -108,10 +112,12 @@
     top: -62px;
     left: 120px;
   }
+
   .advantages__item:nth-child(2) {
     padding-right: 90px;
     position: relative;
   }
+
   .advantages__item:nth-child(2)::before {
     content: "2";
     display: block;
@@ -120,11 +126,13 @@
     font-size: 281px;
     color: #f2f2f2;
   }
+
   .advantages__item:nth-child(3) {
     padding-right: 145px;
     position: relative;
     padding-bottom: 0;
   }
+
   .advantages__item:nth-child(3)::before {
     content: "3";
     display: block;
@@ -133,11 +141,13 @@
     font-size: 281px;
     color: #f2f2f2;
   }
+
   .advantages__item:nth-child(4) {
     padding-right: 90px;
     position: relative;
     padding-bottom: 0;
   }
+
   .advantages__item:nth-child(4)::before {
     content: "4";
     display: block;
@@ -146,12 +156,14 @@
     font-size: 281px;
     color: #f2f2f2;
   }
+
   .advantages__description::before {
     width: 80px;
     height: 80px;
     left: 0;
     top: 0;
   }
+
   .advantages__description {
     font-family: $fontSecondary;
     font-size: $fontBaseSize;
@@ -162,46 +174,57 @@
     margin-left: 0;
     width: 245px;
   }
+
   .advantages__description--dining {
     padding-bottom: 105px;
   }
+
   .advantages__description--clock {
     padding-bottom: 105px;
   }
+
   .advantages__description::after {
     top: 25px;
     left: 27px;
   }
 }
+
 @media (min-width: $desktopWidth) {
   .advantages {
     width: 1440px;
     margin: auto;
   }
+
   .advantages__title {
     margin-top: 79px;
     margin-bottom: 63px;
     margin-left: 113px;
   }
+
   .advantages__item:nth-child(4) {
     padding-right: 100px;
     padding-left: 0;
   }
+
   .advantages__item:nth-child(1) {
     padding-left: 110px;
     padding-right: 124px;
     width: 201px;
   }
+
   .advantages__item:nth-child(2) {
     padding-right: 105px;
   }
+
   .advantages__item:nth-child(3) {
     width: 205px;
     padding-right: 121px;
   }
+
   .advantages__description {
     margin: 0 auto;
   }
+
   .advantages__item:nth-child(1)::before {
     left: 228px;
   }

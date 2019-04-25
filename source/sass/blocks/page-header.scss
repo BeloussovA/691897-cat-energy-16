@@ -14,27 +14,31 @@
 }
 
 @media (min-width: $tabletWidth) {
- .page-header {
-   display: flex;
-   width: 768px;
-   border: none;
+  .page-header {
+    display: flex;
+    width: 768px;
+    border: none;
   }
- .page-header__wrapper {
+
+  .page-header__wrapper {
     padding-left: 29px;
     padding-top: 35px;
     margin-right: 65px;
     padding-bottom: 0;
   }
- .page-header__burger {
-  display: none;
- }
+
+  .page-header__burger {
+    display: none;
+  }
 }
+
 @media (min-width: $desktopWidth) {
   .page-header {
     width: 1440px;
     justify-content: space-between;
     margin: 0 auto;
   }
+
   .page-header__wrapper {
     margin-left: 110px;
   }

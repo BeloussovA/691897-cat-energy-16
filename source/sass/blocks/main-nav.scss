@@ -22,6 +22,7 @@
   .main-nav__list {
     flex-direction: row;
   }
+
   .main-nav__item {
     font-family: $fontBase;
     font-size: $fontBaseTablet;
@@ -31,21 +32,26 @@
     padding-top: 55px;
     border: none;
   }
+
   .main-nav__item:nth-child(2) {
     margin-left: 36px;
     margin-right: 38px;
   }
 }
+
 @media (min-width: $desktopWidth) {
   .main-nav__wrapper {
     margin-right: 110px;
   }
+
   .main-nav__item {
     padding-top: 77px;
   }
+
   .main-nav__item a {
     color: #ffffff;
   }
+
   .main-nav__item--menu a {
     color: #222222;
   }

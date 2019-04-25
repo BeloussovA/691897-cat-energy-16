@@ -99,6 +99,7 @@
     background-color: #ffffff;
     border-top: 1px solid #f2f2f2;
   }
+
   .example__title {
     font-family: $fontBase;
     font-size: $fontTitleTablet;
@@ -108,6 +109,7 @@
     padding-top: 40px;
     width: 708px;
   }
+
   .example__description {
     width: 680px;
     font-family: $fontSecondary;
@@ -119,6 +121,7 @@
     margin-left: 31px;
   }
 }
+
 @media (min-width: $desktopWidth) {
   .example {
     width: 1440px;

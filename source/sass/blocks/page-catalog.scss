@@ -16,11 +16,13 @@
   padding-bottom: 35px;
   margin-left: 33px;
 }
+
 @media (min-width: $tabletWidth) {
   .page-catalog {
     border: none;
     width: 768px;
   }
+
   .page-catalog__title {
     font-family: $fontBase;
     font-size: $fontTitleTablet;
@@ -30,6 +32,7 @@
     margin-bottom: 156px;
     padding: 0;
   }
+
   .button {
     width: 249px;
     font-family: $fontBase;
@@ -40,11 +43,13 @@
     padding-bottom: 12px;
   }
 }
+
 @media (min-width: $desktopWidth) {
   .page-catalog {
     width: 1440px;
     margin: auto;
   }
+
   .page-catalog__title {
     margin-left: 113px;
   }

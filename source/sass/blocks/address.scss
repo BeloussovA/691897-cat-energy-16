@@ -30,26 +30,31 @@
   padding-right: 19px;
   padding-left: 19px;
 }
+
 @media (min-width: $tabletWidth) {
   .address {
     width: 768px;
     justify-content: space-between;
   }
+
   .address__wrapper {
     padding-top: 69px;
     padding-bottom: 62px;
     width: 150px;
     padding-left: 71px;
   }
+
   .address__invite {
     font-family: $fontBase;
     font-size: $fontSloganTablet;
     line-height: 1;
   }
+
   .address__description {
     font-size: $fontBaseSize;
     padding-top: 0;
   }
+
   .address__wrapper--add {
     width: 180px;
     text-align: right;

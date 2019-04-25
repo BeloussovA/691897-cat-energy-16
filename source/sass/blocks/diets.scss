@@ -99,6 +99,7 @@
     height: 372px;
     text-align: left;
   }
+
   .diets__title {
     font-family: $fontBase;
     font-size: $fontOtherTitleTablet;
@@ -108,6 +109,7 @@
     padding-left: 55px;
     text-align: left;
   }
+
   .diets__description {
     width: 375px;
     font-family: $fontSecondary;
@@ -118,6 +120,7 @@
     border: none;
     padding-bottom: 0;
   }
+
   .diets__link {
     font-family: $fontBase;
     font-size: $fontSloganTablet;
@@ -125,6 +128,7 @@
     padding-top: 61px;
     position: relative;
   }
+
   .diets__link::after {
     content: "";
     position: absolute;
@@ -134,18 +138,21 @@
     margin-left: 25px;
     top: 66px;
   }
+
   .diets__item::before {
     width: 200px;
     height: 200px;
     margin-left: 450px;
     margin-top: 90px;
   }
+
   .diets__title::after {
     width: 141px;
     height: 194px;
     top: 75px;
     left: 478px;
   }
+
   .diets__title--muscle::after {
     width: 268px;
     height: 113px;
@@ -153,6 +160,7 @@
     left: 415px;
   }
 }
+
 @media (min-width: $desktopWidth) {
   .diets {
     width: 1440px;
@@ -160,40 +168,49 @@
     display: flex;
     flex-wrap: wrap;
   }
+
   .diets__item {
     width: 570px;
     margin: 0;
   }
+
   .diets__item:nth-child(2) {
-  margin: 0;
-  margin-right: 80px;
-  margin-left: 110px;
+    margin: 0;
+    margin-right: 80px;
+    margin-left: 110px;
   }
+
   .diets__title {
     text-align: center;
   }
+
   .diets__description {
     width: 465px;
     padding-top: 75px;
   }
+
   .diets__link {
     padding-top: 36px;
   }
+
   .diets__link::after {
     top: 42px;
   }
+
   .diets__item::before {
     width: 100px;
     height: 100px;
     margin-left: 55px;
     margin-top: 50px;
   }
+
   .diets__title::after {
     width: 71px;
     height: 97px;
     top: 43px;
     left: 66px;
   }
+
   .diets__title--muscle::after {
     width: 134px;
     height: 97px;

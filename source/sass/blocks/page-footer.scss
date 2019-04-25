@@ -34,11 +34,13 @@
   width: 40px;
   height: 40px;
 }
+
 @media (min-width: $tabletWidth) {
   .page-footer {
     display: flex;
     justify-content: space-between;
   }
+
   .page-footer__logo {
     width: 130px;
     padding-bottom: 62px;
@@ -47,10 +49,10 @@
     margin: 0;
     margin-left: 31px;
   }
+
   .page-footer__copyright {
     width: 165px;
     margin: 0;
     margin-right: 30px;
-
   }
 }
