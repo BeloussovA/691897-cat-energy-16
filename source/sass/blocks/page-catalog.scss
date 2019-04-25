@@ -40,3 +40,12 @@
     padding-bottom: 12px;
   }
 }
+@media (min-width: $desktopWidth) {
+  .page-catalog {
+    width: 1440px;
+    margin: auto;
+  }
+  .page-catalog__title {
+    margin-left: 113px;
+  }
+}

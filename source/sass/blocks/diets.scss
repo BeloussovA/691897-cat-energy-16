@@ -156,6 +156,7 @@
 @media (min-width: $desktopWidth) {
   .diets {
     width: 1440px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
   }

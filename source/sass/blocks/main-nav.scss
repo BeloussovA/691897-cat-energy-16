@@ -28,7 +28,7 @@
     font-weight: normal;
     color: #222222;
     line-height: 1;
-    padding-top: 47px;
+    padding-top: 55px;
     border: none;
   }
   .main-nav__item:nth-child(2) {
@@ -45,5 +45,8 @@
   }
   .main-nav__item a {
     color: #ffffff;
+  }
+  .main-nav__item--menu a {
+    color: #222222;
   }
 }

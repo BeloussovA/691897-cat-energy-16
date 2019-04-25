@@ -1,5 +1,5 @@
 .address {
-  width: 280px;
+  width: 320px;
   margin: auto;
   display: flex;
 }
@@ -28,6 +28,7 @@
   padding-top: 30px;
   padding-bottom: 25px;
   padding-right: 19px;
+  padding-left: 19px;
 }
 @media (min-width: $tabletWidth) {
   .address {

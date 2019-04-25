@@ -183,4 +183,26 @@
     margin-bottom: 63px;
     margin-left: 113px;
   }
+  .advantages__item:nth-child(4) {
+    padding-right: 100px;
+    padding-left: 0;
+  }
+  .advantages__item:nth-child(1) {
+    padding-left: 110px;
+    padding-right: 124px;
+    width: 201px;
+  }
+  .advantages__item:nth-child(2) {
+    padding-right: 105px;
+  }
+  .advantages__item:nth-child(3) {
+    width: 205px;
+    padding-right: 121px;
+  }
+  .advantages__description {
+    margin: 0 auto;
+  }
+  .advantages__item:nth-child(1)::before {
+    left: 228px;
+  }
 }

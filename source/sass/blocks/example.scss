@@ -117,6 +117,12 @@
     padding-top: 60px;
     padding-bottom: 55px;
     margin-left: 31px;
-
+  }
+}
+@media (min-width: $desktopWidth) {
+  .example {
+    width: 1440px;
+    margin: auto;
+    border: none;
   }
 }
