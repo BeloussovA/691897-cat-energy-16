@@ -31,3 +31,30 @@
   left: 50px;
   top: 65px;
 }
+
+@media (min-width: $tabletWidth) {
+  .bonus-share {
+     width: 708px;
+     margin: auto;
+     margin-top: 69px;
+  }
+
+  .bonus {
+    width: auto;
+    height: 200px;
+    background: url("../img/gift-photo-tablet@1x.jpg") no-repeat top center;
+    margin-bottom: 76px;
+  }
+
+  .bonus__slogan {
+    width: 160px;
+    padding-top: 75px;
+    position: relative;
+    text-align: left;
+    margin-right: 125px;
+  }
+
+  .bonus__slogan::after {
+    left: -330px;
+  }
+}

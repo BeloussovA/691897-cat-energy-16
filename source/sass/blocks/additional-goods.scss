@@ -14,3 +14,18 @@
   padding-bottom: 30px;
   border-bottom: 1px solid #cccccc;
 }
+
+@media (min-width: $tabletWidth) {
+  .additional-goods {
+    width: 768px;
+    margin: auto;
+  }
+
+  .additional-goods__title {
+    width: auto;
+    margin: 0 auto;
+    margin-left: 67px;
+    font-size: $fontBaseSizeTitle;
+    border: none;
+  }
+}

@@ -40,3 +40,50 @@
   color: #444444;
   text-align: right;
 }
+
+@media (min-width: $tabletWidth) {
+  .goods {
+    width: 708px;
+    margin: auto;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+  }
+
+  .goods:nth-child(2) {
+    border-top: 1px solid #cccccc;
+  }
+
+  .goods__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 38px;
+    margin-right: 37px;
+  }
+
+  .goods__title {
+    font-family: $fontBase;
+    font-size: $fontSloganTablet;
+    margin-top: 28px;
+    margin-bottom: 27px;
+  }
+
+  .goods-stats {
+    width: 280px;
+    padding-bottom: 0;
+    margin-top: 28px;
+  }
+
+  .goods-stats__field {
+    text-align: right;
+  }
+
+  .goods-stats__field {
+    font-size: $fontBaseSize;
+  }
+
+  .goods-button {
+    width: 633px;
+  }
+}
+
+
