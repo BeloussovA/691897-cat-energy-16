@@ -100,6 +100,10 @@
     border-top: 1px solid #f2f2f2;
   }
 
+  .example__slider {
+    background: linear-gradient(#ffffff 0%, #ffffff 30%, #f2f2f2 0%, #f2f2f2 70%)
+  }
+
   .example__title {
     font-family: $fontBase;
     font-size: $fontTitleTablet;
@@ -108,6 +112,17 @@
     margin: 0 auto;
     padding-top: 40px;
     width: 708px;
+  }
+
+  .example__expenses {
+    font-size: $fontSloganTablet;
+    width: 175px;
+    text-align: right;
+    padding-right: 30px;
+    line-height: 1.5;
+    padding-bottom: 0;
+    display: block;
+    margin-top: 0;
   }
 
   .example__description {
@@ -119,6 +134,68 @@
     padding-top: 60px;
     padding-bottom: 55px;
     margin-left: 31px;
+  }
+
+  .example__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+
+  .results {
+    margin: 0;
+    width: 426px;
+  }
+
+  .results__wrapper {
+    width: 162px;
+  }
+
+  .results__description {
+    width: 125px;
+  }
+
+  .results__value {
+    font-size: $fontStatsTablet;
+  }
+
+  .example__cat {
+    background: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 21px;
+  }
+
+  .example__fat-cat {
+    width: 50%;
+    height: 525px;
+    margin: 0;
+    background: url("../img/before-tablet@1x.png") no-repeat -15%;
+  }
+
+  .example__slim-cat {
+    width: 50%;
+    height: 525px;
+    margin: 0;
+    background: url("../img/after-tablet@1x.png") no-repeat 110%;
+  }
+
+  .example__toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 75px;
+  }
+
+  .example__toggle--left {
+    padding: 0;
+  }
+
+  .example__toggle--right {
+    padding: 0;
   }
 }
 

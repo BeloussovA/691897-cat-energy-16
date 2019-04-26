@@ -47,12 +47,14 @@
   .address__invite {
     font-family: $fontBase;
     font-size: $fontSloganTablet;
-    line-height: 1;
+    line-height: 1.3;
   }
 
   .address__description {
     font-size: $fontBaseSize;
     padding-top: 0;
+    margin-bottom: 15px;
+    line-height: 1.3;
   }
 
   .address__wrapper--add {

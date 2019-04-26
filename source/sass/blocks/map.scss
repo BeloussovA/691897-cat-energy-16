@@ -5,4 +5,27 @@
 
 .map__wrapper {
   height: 400px;
+  background: url("../img/bg-map-mobile@1x.png") no-repeat;
+}
+
+@media (min-width: $tabletWidth) {
+  .map {
+    width: 768px;
+    margin: auto;
+    position: relative;
+  }
+  .map__wrapper {
+   background: url("../img/bg-map-tablet@1x.png") no-repeat;
+  }
+
+  .map::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 113px;
+    height: 106px;
+    background: url("../img/map-pin.png") no-repeat center;
+    top: 150px;
+    left: 330px;
+  }
 }
