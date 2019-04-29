@@ -17,3 +17,19 @@ textarea {
   text-align: center;
   padding-top: 15px;
 }
+
+@media (min-width: $tabletWidth) {
+  .comment__title {
+    font-size: $fontOtherTitleTablet;
+    margin-top: 69px;
+    margin-bottom: 72px;
+  }
+
+  textarea {
+    width: 631px;
+    height: 174px;
+    font-size: $fontSloganTablet;
+    text-align: left;
+    padding-left: 20px;
+  }
+}

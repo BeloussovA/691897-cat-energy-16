@@ -15,3 +15,18 @@
   text-transform: uppercase;
   width: 230px;
 }
+
+@media (min-width: $tabletWidth) {
+  .conditions__title {
+    font-size: $fontTitleTablet;
+    margin-bottom: 53px;
+  }
+
+  .conditions__info {
+    font-size: $fontSloganTablet;
+    line-height: 1.5;
+    width: 325px;
+    margin-left: 38px;
+    margin-bottom: 69px;
+  }
+}

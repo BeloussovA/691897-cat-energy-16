@@ -1,0 +1,22 @@
+@media (min-width: $tabletWidth) {
+  .button-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button-form {
+    width: 283px;
+    font-size: $fontSloganTablet;
+    margin: 0;
+    margin-bottom: 72px;
+  }
+
+  .footnote {
+    margin-right: 110px;
+    width: 180px;
+    padding-top: 15px;
+    font-family: $fontSecondary;
+    font-size: $fontBaseSize;
+    margin-left: 0;
+  }
+}

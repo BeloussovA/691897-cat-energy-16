@@ -27,3 +27,28 @@
   align-items: center;
   margin-left: 60px;
 }
+
+@media (min-width: $tabletWidth) {
+  .ingredients__title {
+    font-size: $fontOtherTitleTablet;
+    margin-top: 69px;
+    margin-bottom: 79px;
+  }
+
+  .ingredients__item {
+    font-size: $fontSloganTablet;
+    margin-right: 125px;
+    padding-bottom: 59px;
+  }
+
+  .ingredients__checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .ingredients__item:nth-last-child(1) {
+    margin-right: 164px;
+  }
+}

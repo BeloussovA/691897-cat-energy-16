@@ -72,3 +72,42 @@
   font-weight: normal;
   border: 1px solid #cdcdcd;
 }
+
+@media (min-width: $tabletWidth) {
+  .introduction {
+    margin-bottom: 72px;
+  }
+
+  .introduction__name {
+    font-size: $fontSloganTablet;
+    line-height: 1;
+  }
+
+  .first-name {
+    font-size: $fontSloganTablet;
+    line-height: 1;
+    width: 567px;
+  }
+
+  .introduction__weight {
+    line-height: 1;
+    font-size: $fontSloganTablet;
+  }
+
+  .weight {
+    line-height: 1;
+    font-size: $fontSloganTablet;
+    width: 536px;
+  }
+
+  .introduction__age {
+    line-height: 1;
+    font-size: $fontSloganTablet;
+  }
+
+  .age {
+    line-height: 1;
+    font-size: $fontSloganTablet;
+    width: 497px;
+  }
+}

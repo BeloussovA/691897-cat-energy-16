@@ -15,3 +15,9 @@
 .radio__item:nth-last-child(1) {
   padding-bottom: 25px;
 }
+
+@media (min-width: $tabletWidth) {
+  .radio__item {
+    font-size: $fontSloganTablet;
+  }
+}
