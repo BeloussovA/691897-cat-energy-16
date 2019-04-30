@@ -30,3 +30,17 @@
     left: 330px;
   }
 }
+
+@media (min-width: $desktopWidth) {
+  .map {
+    width: 1440px;
+  }
+
+  .map__wrapper {
+    background: url("../img/bg-map-desktop@1x.png") no-repeat;
+  }
+
+  .map::after {
+    left: 1000px;
+  }
+}

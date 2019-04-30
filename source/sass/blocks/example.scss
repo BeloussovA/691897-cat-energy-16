@@ -204,5 +204,59 @@
     width: 1440px;
     margin: auto;
     border: none;
+    display: flex;
+    margin-top: 65px;
+  }
+
+  .example__main-wrapper {
+    width: 50%;
+    background: linear-gradient(#ffffff 0%, #ffffff 30%, #f2f2f2 0%, #f2f2f2 70%);
+  }
+
+  .example__slider {
+    width: 50%;
+  }
+
+  .example__title {
+    padding: 0;
+    margin: 0;
+    margin-left: 110px;
+    margin-top: 70px;
+  }
+
+  .example__description {
+    width: 431px;
+    margin-left: 110px;
+    padding-top: 130px;
+  }
+  .results {
+    margin-left: 70px;
+    margin-bottom: 60px;
+  }
+
+  .example__cat {
+    height: 80%;
+  }
+
+  .example__fat-cat {
+    background: url("../img/before-desktop@1x.png") no-repeat 2%;
+  }
+
+  .example__slim-cat {
+    background: url("../img/after-desktop@1x.png") no-repeat 110%;
+  }
+
+  .example__expenses {
+    padding-right: 0;
+    width: 562px;
+    text-align: left;
+    margin-left: 55px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .example__wrapper {
+    flex-direction: column;
   }
 }
+
