@@ -15,7 +15,7 @@
 .products-card__title--other-items {
   text-align: center;
   margin: auto;
-  width: 320px;
+  width: $mobileWidth;
   padding-bottom: 11px;
   position: relative;
   margin-top: 82px;
@@ -32,7 +32,7 @@
 }
 
 .products-card__item {
-  width: 320px;
+  width: $mobileWidth;
   margin: auto;
   display: flex;
 }
@@ -201,6 +201,7 @@
 
   .products-card:nth-last-child(odd) {
     margin-left: 80px;
+    margin-bottom: 80px;
   }
 
   .products-card:nth-child(1) {
@@ -209,6 +210,7 @@
 
   .products-card:nth-child(5) {
     margin-left: 110px;
+    margin-bottom: 80px;
   }
 
   .products-card:last-child {

@@ -20,7 +20,7 @@
 @media (min-width: $tabletWidth) {
   .page-catalog {
     border: none;
-    width: 768px;
+    width: $tabletWidth;
   }
 
   .page-catalog__title {

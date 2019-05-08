@@ -1,5 +1,5 @@
 .address {
-  width: 320px;
+  width: $mobileWidth;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -43,7 +43,7 @@
 
 @media (min-width: $tabletWidth) {
   .address {
-    width: 768px;
+    width: $tabletWidth;
   }
 
   .address__main-wrapper {

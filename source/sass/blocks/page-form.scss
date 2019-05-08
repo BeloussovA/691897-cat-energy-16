@@ -1,5 +1,5 @@
 .page-form {
-  width: 320px;
+  width: $mobileWidth;
   margin: auto;
   border-top: 1px solid #cccccc;
 }
@@ -11,7 +11,15 @@
 
 @media (min-width: $tabletWidth) {
   .page-form {
-    width: 768px;
+    width: $tabletWidth;
     border: none;
   }
 }
+
+@media (min-width: $desktopWidth) {
+  .page-form {
+    width: 1440px;
+    margin-left: 110px;
+  }
+}
+

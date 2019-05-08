@@ -6,7 +6,7 @@
 }
 
 .pick-program__title {
-  width: 320px;
+  width: $mobileWidth;
   font-family: $fontBase;
   color: #ffffff;
   font-size: 36px;
@@ -59,7 +59,7 @@
     background: url("../img/index-can-tablet@1x.jpg") no-repeat top 260px center;
     position: relative;
     height: 845px;
-    width: 768px;
+    width: $tabletWidth;
     margin: auto;
   }
 

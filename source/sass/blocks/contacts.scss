@@ -65,3 +65,13 @@
     width: 535px;
   }
 }
+
+@media (min-width: $desktopWidth) {
+  .contacts__wrapper {
+    display: flex;
+  }
+
+  .contacts__details:first-child {
+    margin-right: 78px;
+  }
+}

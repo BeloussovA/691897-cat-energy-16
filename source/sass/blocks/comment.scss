@@ -33,3 +33,14 @@ textarea {
     padding-left: 20px;
   }
 }
+
+@media (min-width: $desktopWidth) {
+  textarea {
+    width: 1220px;
+  }
+
+  .comment {
+    width: 1440px;
+    margin: auto;
+  }
+}

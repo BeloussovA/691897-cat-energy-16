@@ -4,3 +4,9 @@
     margin: auto;
   }
 }
+
+@media (min-width: $desktopWidth) {
+  .selection-program {
+    width: 1440px;
+  }
+}

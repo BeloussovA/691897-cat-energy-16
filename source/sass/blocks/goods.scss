@@ -82,3 +82,37 @@
     width: 633px;
   }
 }
+
+@media (min-width: $desktopWidth) {
+  .goods {
+    width: 895px;
+    margin: 0;
+    margin-left: 110px;
+    border-left: 0;
+    border-right: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .goods-button {
+    width: 245px;
+    margin: auto;
+    margin-right: 0;
+  }
+
+  .goods__wrapper {
+    margin: 0;
+    width: 630px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .goods-stats {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  tr.goods-stats {
+    margin: 0;
+  }
+}

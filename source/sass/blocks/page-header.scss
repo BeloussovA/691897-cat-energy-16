@@ -1,5 +1,5 @@
 .page-header {
-  width: 320px;
+  width: $mobileWidth;
   border-left: 1px solid #cccccc;
   border-right: 1px solid #cccccc;
   margin: auto;
@@ -16,7 +16,7 @@
 @media (min-width: $tabletWidth) {
   .page-header {
     display: flex;
-    width: 768px;
+    width: $tabletWidth;
     border: none;
   }
 

@@ -1,5 +1,5 @@
 .map {
-  width: 320px;
+  width: $mobileWidth;
   margin: auto;
 }
 
@@ -10,7 +10,7 @@
 
 @media (min-width: $tabletWidth) {
   .map {
-    width: 768px;
+    width: $tabletWidth;
     margin: auto;
     position: relative;
   }

@@ -1,5 +1,5 @@
 .additional-goods {
-  width: 320px;
+  width: $mobileWidth;
   margin: auto;
 }
 
@@ -17,7 +17,7 @@
 
 @media (min-width: $tabletWidth) {
   .additional-goods {
-    width: 768px;
+    width: $tabletWidth;
     margin: auto;
   }
 
@@ -27,5 +27,20 @@
     margin-left: 67px;
     font-size: $fontBaseSizeTitle;
     border: none;
+  }
+}
+
+@media (min-width: $desktopWidth) {
+  .additional-goods {
+    width: 1440px;
+    display: flex;
+  }
+
+  .additional-goods__title {
+    width: auto;
+    margin-left: 113px;
+    margin-bottom: 75px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }

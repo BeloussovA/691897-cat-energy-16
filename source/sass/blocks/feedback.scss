@@ -4,3 +4,10 @@
     margin: auto;
   }
 }
+
+@media (min-width: $desktopWidth) {
+  .feedback {
+    width: 1440px;
+    margin: auto;
+  }
+}

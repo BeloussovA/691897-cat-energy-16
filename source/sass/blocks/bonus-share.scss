@@ -58,3 +58,34 @@
     left: -330px;
   }
 }
+
+@media (min-width: $desktopWidth) {
+  .bonus {
+    width: 245px;
+    height: 290px;
+    background: url("../img/gift-photo-desktop@1x.jpg") no-repeat top center;
+    margin-left: 90px;
+    position: relative;
+    margin-bottom: 86px;
+  }
+
+  .bonus-share {
+    margin-top: 110px;
+  }
+
+  .bonus__slogan {
+    padding-top: 185px;
+    text-align: center;
+    margin-right: 40px;
+  }
+
+  .bonus__slogan::after {
+    content: "";
+    position: absolute;
+    width: 56px;
+    height: 61px;
+    background: url("../img/icon-gift.svg");
+    left: 52px;
+    top: 76px;
+  }
+}

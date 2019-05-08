@@ -21,3 +21,9 @@
     font-size: $fontSloganTablet;
   }
 }
+
+@media (min-width: $desktopWidth) {
+  .radio__item {
+    font-size: $fontBaseSizeBold;
+  }
+}

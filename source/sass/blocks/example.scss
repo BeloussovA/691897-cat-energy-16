@@ -1,5 +1,5 @@
 .example {
-  width: 320px;
+  width: $mobileWidth;
   margin: auto;
   background-color: #f2f2f2;
 }
@@ -35,7 +35,7 @@
 }
 
 .example__cat {
-  width: 320px;
+  width: $mobileWidth;
   height: 235px;
   margin: auto;
   background: url("../img/before-mobile@1x.png") no-repeat;
@@ -95,7 +95,7 @@
 
 @media (min-width: $tabletWidth) {
   .example {
-    width: 768px;
+    width: $tabletWidth;
     background-color: #ffffff;
     border-top: 1px solid #f2f2f2;
   }

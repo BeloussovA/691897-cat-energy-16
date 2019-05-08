@@ -111,3 +111,15 @@
     width: 497px;
   }
 }
+
+@media (min-width: $desktopWidth) {
+  .introduction__wrapper {
+    width: 1440px;
+    display: flex;
+  }
+
+  .introduction {
+    margin-right: 80px;
+    margin-bottom: 0;
+  }
+}
